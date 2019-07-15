@@ -6,7 +6,7 @@
 // @author       3n1x
 // @match        http://pixelzone.io/*
 // @match        https://pixelzone.io/*
-// @homepage     https://discord.io/brasil-place
+// @homepage   
 // @updateURL    https://github.com/Poraett/pato/blob/master/minimap.user.js
 // @downloadURL  https://github.com/Poraett/pato/blob/master/minimap.user.js
 // @grant        none
@@ -18,7 +18,7 @@ Number.prototype.between = function(a, b) {
   return this > min && this < max;
 };
 var range = 25;
-window.baseTepmlateUrl = 'https://github.com/Poraett/pato';
+window.baseTepmlateUrl = 'https://github.com/Poraett/pato/blob/master/templates/data.json';
 
 window.addEventListener('load', function () {
     //Regular Expression to get coordinates out of URL

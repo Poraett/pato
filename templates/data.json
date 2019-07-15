@@ -1,0 +1,17 @@
+{
+  "getzone": {
+    "name": "getzone.png",
+    "x": 1515,
+    "y":  777,
+    "width": 194,
+    "height": 110
+  },
+  "pato": {
+    "name": "pato.png",
+    "x": 1323,
+    "y":  777,
+    "width": 190,
+    "height": 107
+}
+
+}

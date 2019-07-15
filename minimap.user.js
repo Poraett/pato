@@ -7,8 +7,8 @@
 // @match        http://pixelzone.io/*
 // @match        https://pixelzone.io/*
 // @homepage     
-// @updateURL    https://github.com/Poraett/pato/blob/master/minimap.user.js
-// @downloadURL  https://github.com/Poraett/pato/blob/master/minimap.user.js
+// @updateURL    https://raw.githubusercontent.com/Poraett/pato/blob/master/minimap.user.js
+// @downloadURL  https://raw.githubusercontent.com/Poraett/pato/blob/master/minimap.user.js
 // @grant        none
 // ==/UserScript==
 
@@ -18,7 +18,7 @@ Number.prototype.between = function(a, b) {
   return this > min && this < max;
 };
 var range = 25;
-window.baseTepmlateUrl = 'https://github.com/Poraett/pato/blob/master/';
+window.baseTepmlateUrl = 'https://raw.githubusercontent.com/Poraett/pato/blob/master/';
 
 window.addEventListener('load', function () {
     //Regular Expression to get coordinates out of URL
